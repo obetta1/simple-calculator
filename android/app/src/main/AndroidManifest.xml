@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.calculator_app">
+    package="com.ben44.calculator_app">
    <application
         android:label="calculator_app"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher1_round">
         <activity
-            android:name=".MainActivity"
+            android:name="com.ben44.calculator_app.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
